@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel to Australia - Australian Tourism Information - Tourism Australia</title>
+    <link rel="stylesheet" href="./australia.css" />
+    <link rel="shortcut icon" href="./download (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./auth.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div id="image">
+          <img
+            id="img"
+            src="https://www.australia.com/etc.clientlibs/tourismaustralia/clientlibs/resources/images/header/v3/logo.svg" alt=""/>
+        </div>
+        <div id="content">
+          <h3>Be inspired <i class="fa-solid fa-angle-down fa-xl"></i></h3>
+          <h3>Places to go <i class="fa-solid fa-angle-down fa-xl"></i></h3>
+          <h3>Things to do <i class="fa-solid fa-angle-down fa-xl"></i></h3>
+          <h3>Plan your trip <i class="fa-solid fa-angle-down fa-xl"></i></h3>
+        </div>
+        <div id="icon">
+          <button><i class="fa-solid fa-earth-americas fa-2xl"></i></button>
+          <button><i class="fa-regular fa-heart fa-2xl"></i></button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             <i class="fa-regular fa-user fa-2xl" style="size: 50px;color: black;"></i>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content" id="id">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">sign in page</h1>
+                  <div id="form">
+                    <div id="auth-container">
+                      <h1>email</h1>
+                        <input  type="email" id="email"  placeholder="Email" required><br><br>
+                        <h2>password</h2>
+                        <input class="name" type="password" required id="password" placeholder="Password"><br>
+                        <button onclick="signIn()" class="autbut">Sign In</button>
+                    </div>
+                  </div>
+                  <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <!-- <div class="modal-body">
+                 
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <button><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+        </div>
+      </nav>
+      <div id="background">
+        <div id="back">
+          <button id="button1">Watch film</button>
+          <button id="button2">Find your own adventure</button>
+        </div>
+      </div>
+    </main>
+    <section id="section">
+      <div id="im">
+        <img src="./img/come and say g'day.webp" alt="" class="sideim" />
+        <img src="./img/nature and national parks.webp" alt="" class="sideim" />
+        <img src="./img/beaches and islands.jpg" alt="" class="sideim" />
+      </div>
+      <div id="context">
+        <h2>COME AND SAY G'DAY</h2>
+        <h2>NATURE AND NATIONAL PARKS</h2>
+        <h2>BEACHES AND ISLANDS</h2>
+      </div>
+      <div id="quiz">
+        <h1 class="b">FIND YOUR OWN ADVENTURE QUIZ</h1>
+        <br />
+        <span class="c">Ready for holiday? Here's a list of Ruby's curated Australian</span>
+        <span class="d"> picked just for you! </span><br /><br />
+        <button id="button3">Take quiz</button>
+      </div>
+      <h1 id="e">TOP PLACES TO GO</h1>
+      <aside id="f">
+        <span class="place">CITIES</span>&nbsp;
+        <span class="place">BEACHES</span>&nbsp;
+        <span class="place">POPULAR</span>&nbsp;
+        <span class="place">ISLANDS</span>&nbsp;
+        <span class="place">COUNTRY</span>&nbsp;
+        <span class="place">OUTBACK</span>&nbsp;
+        <span class="place">NATURE</span>&nbsp;
+      </aside>
+      <div id="scroll">
+        <div class="h">
+            <h2 class="x">THE BEST ADVENTURE HOLIDAYS DESTINATIONS</h2>
+        </div>
+        <div class="i">
+            <h2 class="x" style="color: burlywood;">THE BEST SKI RESORT IN AUSTRALIA</h2>
+        </div>
+        <div class="j">
+            <h2 class="x">BRISBANE / MEEANJIN</h2>
+        </div>
+        <div class="k">
+            <h2 class="x">ROSE BYRNE'S TOP 5 AUSTRALIAN DESTINATIONS</h2>
+        </div>
+        <div class="l">
+            <h2 class="x">BEST AUSTRALIAN CRUISE DESTINATIONS</h2>
+        </div>
+        <div class="m">
+            <h2 class="x">AUSTRALIA'S BEST TRAIN JOURNEYS </h2>
+        </div>
+        <div class="n">
+            <h2 class="x">SYDNEY / WARRANE</h2>
+        </div>
+
+      </div>
+      <h1 id="o">TOP THINGS TO DO IN AUSTRALIA <br><br>
+        <span class="place">POPULAR</span>
+        <span class="place">NATURE</span>
+        <span class="place">CULTURE</span>
+        <span class="place">ADVENTURE</span>
+        <span class="place">FAMILY</span>
+        <span class="place">RELAXATION</span>
+        <span class="place">BAG PACKING</span>
+        <span class="place">EVENTS</span>
+        <span class="place">FOOD AND DRINK</span>
+      </h1>
+      <div id="scroll1">
+        <div class="h1">
+            <h2 class="con">FIFA WOMEN'S WORLD CUP <br> AUSTRALIA AND NEW ZEALAND 2023</h2>
+        </div>
+        <div class="i1">
+            <h2 class="con">AUSTRALIA'S BEST OUTBACK EXPERIENCES</h2>
+        </div>
+        <div class="j1">
+            <h2 class="con">AUSTRALIA'S MOST ECO-FRIENDLY DESTINATIONS</h2>
+        </div>
+        <div class="k1">
+            <h2 class="con">NINGALOO REEF / NYINGGULU</h2>
+        </div>
+        <div class="l1">
+            <h2 class="con">BEST PLACES TO SEE WILD KOALAS</h2>
+        </div>
+        <div class="m1">
+            <h2 class="con">WHERE TO SEE THE SOUTHERN</h2>
+        </div>
+        <div class="n1">
+          <h2 class="con">ULURU AND KATA TJUTA</h2>
+        </div>
+      </div>
+      <h1 id="y">READY TO PLAN A TRIP?</h1>
+      <div id="z">
+      <div class="z1">
+        <p class="p">VISA INFORMATION</p>
+        
+      </div>
+      <div class="z2">
+        <p class="p">DEALS AND PACKAGES</p>
+      </div>
+      </div>
+      <h1 id="aus">@australia</h1>
+      <div id="bot">
+       <div class="bot1"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/167ee633f66efbf8bed7122334567e18ece5bceb0be22ddf965dd8169bdc48f1.jpg" class="botim" alt=""></div>
+       <div class="bot2"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/3880c2c24cb2135e93f0c33de83cc306114a5b697135ed878f7312da5db5619a.jpg" class="botim" alt=""></div>
+       <div class="bot2"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/1becdb31202adf630979eefbd18f56dfd313506bd5d7f38ee46658a14db683a8.jpg" class="botim" alt=""></div>
+       <div class="bot2"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/d11fe00a3ca5b556033d927edadc3931c47257b6ff8a28b7b60ef20e1780d06b.jpg" class="botim" alt=""></div>
+       <div class="bot3"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/3e432d9df63be83c4bbb848a9be61d20660471a1cd214c288842f81e1c4ad8a4.jpg" class="botim" alt=""></div>
+       <div class="bot4"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/ad054bcc9bbe8179df1c750c1ce3f6fbcf8d63a17f3828ee07f88a94b7e1844b.jpg" class="botim" alt=""></div>
+       <div class="bot5"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/1f21344f3f957ddbd7f6e583d84150b4d73f17c7e6c0ebd56b8937c1c0d3407c.jpg" class="botim" alt=""></div>
+       <div class="bot6"><img src="https://s3.amazonaws.com/crowdriff-media/mirror/25d1dba2c5a255f06410a377bfbae9e017dcf51deb86e963c30dfbb3840d5830.jpg" class="botim" alt=""></div>
+      </div>
+    </section>
+    <footer id="foot">
+      <div id="image">
+        <img
+          id="img1"
+          src="https://www.australia.com/etc.clientlibs/tourismaustralia/clientlibs/resources/images/header/v3/logo.svg"
+          alt=""/><center id="aa">AUSTRALIA.COM</center>
+          <hr id="hr">
+          <div id="footer_content">
+            <p class="q">achnowledgement of country</p>
+            <img  id="ab" src="./foot.webp" alt="">
+            <p id="r">We acknowledge the Traditional Aboriginal and Torres Strait Islander Owners of the land, sea and waters of the Australian continent, and recognise their custodianship of culture and Country for over 60,000 years.</p>
+            <br><br><a  id="s" href="//">Read more →</a>
+            <br><br><br><br><hr class="hr">
+          </div><br><br><br>
+          <div id="about">
+              <div class="about_content">
+                <br><br><br>
+                <p>change your region and language</p><br><br>
+                <select name="" id="select">
+                  <option value="">India(English)</option>
+                  <option value="">
+                    International (English)</option>
+                    <option value="">United States(English)</option>
+                    <option value="">Canada(English)</option>
+                </select>
+              </div>
+              <div class="about_content">
+                <p>Find us on </p>
+                <ol>
+                  <li><i class="fa-brands fa-facebook-f fa-lg" style="color: #3db8e4;"></i>&nbsp;&nbsp;FACEBOOK</li>
+                  <li><i class="fa-brands fa-youtube" style="color: #3db8e4;"></i>&nbsp;&nbsp;YOUTUBE</li>
+                  <li><i class="fa-brands fa-twitter" style="color: #3db8e4;"></i>&nbsp;&nbsp;TWITTER</li>
+                  <li><i class="fa-brands fa-instagram" style="color: #3db8e4;"></i>&nbsp;&nbsp;INSTAGRAM</li>
+                  <li><i class="fa-brands fa-pinterest" style="color: #3db8e4;"></i>&nbsp;&nbsp;PINTEREST</li>
+                </ol>
+              </div>
+              <div class="about_content">
+                <p>About this site</p>
+                <ol>
+                  <li>PRIVACY POLICY</li>
+                  <li>TERMS AND CONDITIONS</li>
+                  <li>SITEMAP</li>
+                </ol>
+              </div>
+              <div class="about_content">
+                <p>Other sites</p>
+                <ol>
+                  <li>MEDIA & INDUSTRY</li>
+                  <li>BUSINESS EVENTS</li>
+                  <li>TOURISM INVESTMENT</li>
+                </ol>
+                <h5>&copy; Tourism Australia 2023</h5>
+              </div>
+          </div>
+          <div id="last">
+            <span id="las">*Product Disclaimer:</span>
+            <p> Tourism Australia is not the owner, operator, advertiser or promoter of the listed products and services. Information on listed products and services, including Covid-safe accreditations, are provided by the third-party operator on their website or as published on Australian Tourism Data Warehouse where applicable. Rates are indicative based on the minimum and maximum available prices of products and services. Please visit the operator’s website for further information. All prices quoted are in Australian dollars (AUD). Tourism Australia makes no representations whatsoever about any other websites which you may access through its websites such as australia.com. Some websites which are linked to the Tourism Australia website are independent from Tourism Australia and are not under the control of Tourism Australia. Tourism Australia does not endorse or accept any responsibility for the use of websites which are owned or operated by third parties and makes no representation or warranty in relation to the standard, class or fitness for purpose of any services, nor does it endorse or in any respect warrant any products or services by virtue of any information, material or content linked from or to this site.</p>
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="./aus.js"></script>
+  </body>
+</html>
